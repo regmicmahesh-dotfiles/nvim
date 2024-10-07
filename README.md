@@ -40,13 +40,13 @@ wget -q https://raw.githubusercontent.com/NormalNvim/installer/main/installer.sh
 ### Clone manually (Linux/MacOS/WSL)
 ```sh
 # Strongly recommended: Fork the repo and clone YOUR fork.
-git clone https://github.com/NormalNvim/NormalNvim.git ~/.config/nvim
+git clone https://github.com/regmicmahesh-dotfiles/nvim.git ~/.config/nvim
 ```
 
 ### Clone manually (Windows)
 ```sh
 # Strongly recommended: Fork the repo and clone YOUR fork.
-git clone https://github.com/NormalNvim/NormalNvim.git %USERPROFILE%\AppData\Local\nvim && nvim
+git clone https://github.com/regmicmahesh-dotfiles/nvim.git %USERPROFILE%\AppData\Local\nvim && nvim
 ```
 
 ### Optional dependencies
