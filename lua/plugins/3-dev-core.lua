@@ -298,7 +298,6 @@ return {
         'none-ls-external-sources.diagnostics.flake8',
         'none-ls-external-sources.diagnostics.luacheck',
         'none-ls-external-sources.diagnostics.psalm',
-        'none-ls-external-sources.diagnostics.shellcheck',
         'none-ls-external-sources.diagnostics.yamllint',
 
         -- formatting
@@ -371,7 +370,7 @@ return {
         { path = "project.nvim", mods = { "project_nvim", "telescope" } },
         { path = "trim.nvim", mods = { "trim" } },
         { path = "stickybuf.nvim", mods = { "stickybuf" } },
-        { path = "bufremove.nvim", mods = { "mini.bufremove" } },
+        { path = "mini.bufremove", mods = { "mini.bufremove" } },
         { path = "smart-splits.nvim", mods = { "smart-splits" } },
         { path = "better-scape.nvim", mods = { "better_escape" } },
         { path = "toggleterm.nvim", mods = { "toggleterm" } },
